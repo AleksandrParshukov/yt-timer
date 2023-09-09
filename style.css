@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'ROBO';
+	src: url('./robo.ttf');
+}
+
+html {
+	min-height: 100vh;
+}
+
+body {
+	height: 100%;
+	background: black url('./bg.png') no-repeat center;
+	background-size: 100% auto;
+}
+
+#timer {
+	font-family: 'ROBO';
+	font-size: 100px;
+	width: 330px;
+	display: grid;
+	grid-template-columns: 75px 75px 30px 75px 75px;
+	position: absolute;
+	top: 28%;
+	left: 50.2%;
+	transform: translate(-50%, -50%);
+}
+
+#timer span {
+	text-align: center;
+	color: white;
+	background-image: linear-gradient(to top, #e7e9bb, #403b4a);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
